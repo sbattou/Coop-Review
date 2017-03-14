@@ -4,3 +4,5 @@ The project aims to develop a website catered to co-op students looking to find 
 1. Download Python 2.7+
 2. Run the following command “python -m SimpleHTTPServer 8080”
 3. Open “http://localhost:8080/”
+# Screenshot
+![coopreview](https://cloud.githubusercontent.com/assets/22031272/23921703/02154cfc-08d6-11e7-8cf9-8d2863bac61c.png)
