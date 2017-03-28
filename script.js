@@ -46,7 +46,10 @@
 	});
 
 	scotchApp.controller('reviewController', function($scope) {
-	    $scope.message = 'This is the review page!';
+	    $scope.company = 'Google';
+	    $scope.pros = 'A great company to work for, right from the bat you hit the ground running and start to get your hand dirty in meanigful dev projects.';
+	    $scope.cons = 'The work life balance is not to great, expect to do a lot of over time which can be the major pitfall.';
+	    $scope.advice = 'Keep the company growing in new areas where people are needed, without cutting down on older departments where knowledgeable staff have great value added. The newer generation knows the new tools, but the older generation is still learning too.';
 	});
 
 	scotchApp.controller('accountController', function($scope) {
