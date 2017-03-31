@@ -1,5 +1,74 @@
-<div class="jumbotron text-center">
-	<h1>Resume</h1>
-
-	<p>{{ message }}</p>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/resume.css"/>
+</head>
+<body ng-controller="resumeController">
+	<div class="flex-container">
+		<div class="resume-section flex-item panel panel-default">
+			<div class="panel-heading">Your Resumes</div>
+			<div class="panel-body">
+				<div class="list">
+					<ul class="list-group">
+						<!-- NEEDS TO BE GENERATED DYNAMICALLY -->
+						<li class="list-group-item">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox"> resumeV1.pdf
+								</label>
+							</div>
+						</li>
+						<li class="list-group-item">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox"> resumeV2.pdf
+								</label>
+							</div>
+						</li>
+						<li class="list-group-item">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox"> resumeV3.pdf
+								</label>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="options">
+					<button type="button" class="btn btn-primary">Upload Resume</button>
+					<div class="btn-group" role="group">
+						<div class="btn-group" role="group">
+							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Choose an option...
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a href="#">Remove</a></li>
+								<li><a href="#">Edit</a></li>
+							</ul>
+						</div>
+					</div>
+					<button type="button" class="btn btn-success">Go</button>
+				</div>
+			</div>
+		</div>
+		<div class="comment-section flex-item panel panel-default">
+			<div class="panel-heading">Criticism</div>
+			<div class="panel-body">
+				<div class="list">
+					<ul class="list-group">
+						<!-- NEEDS TO BE GENERATED DYNAMICALLY -->
+						<li class="list-group-item">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</li>
+						<li class="list-group-item">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
