@@ -9,40 +9,57 @@
 		<div class="resume-section flex-item panel panel-default">
 			<div class="panel-heading">Your Resumes</div>
 			<div class="panel-body">
+				<div class="submission">
+					<label class="label label-default custom-upload-btn">
+						<input type="file" fd-input />
+						Browse
+					</label>
+					<label class="file-name">{{ fileName }}</label>
+					<label class="label label-primary">
+						Submit
+					</label>
+				</div>
 				<div class="list">
 					<ul class="list-group">
 						<!-- NEEDS TO BE GENERATED DYNAMICALLY -->
 						<li class="list-group-item">
 							<div class="checkbox">
 								<label>
-									<input type="checkbox"> resumeV1.pdf
+									<input type="checkbox"> {{resumeName}}
+									<div class="request-review">
+										<label class="basic-text">Review request pending...</label>
+										<a href="#">Reviews <span class="badge">1</span></a>
+									</div>
 								</label>
 							</div>
 						</li>
 						<li class="list-group-item">
 							<div class="checkbox">
 								<label>
-									<input type="checkbox"> resumeV2.pdf
+									<input type="checkbox"> {{resumeName}}
+									<div class="request-review">
+										<label class="basic-text">Review request pending...</label>
+										<a href="#">Reviews <span class="badge">{{reviewAmount}}</span></a>
+									</div>
 								</label>
 							</div>
 						</li>
 						<li class="list-group-item">
 							<div class="checkbox">
 								<label>
-									<input type="checkbox"> resumeV3.pdf
+									<input type="checkbox"> {{resumeName}}
+									<div class="request-review">
+										<label class="label label-success">Request Audit</label>
+										<a href="#">Reviews <span class="badge">{{reviewAmount}}</span></a>
+									</div>
 								</label>
 							</div>
 						</li>
 					</ul>
 				</div>
-				<label class="label label-default custom-upload-btn">
-					<input type="file" fd-input />
-					Browse...
-				</label>
 				<div class="options">
-					<button type="button" class="btn btn-success">Upload</button>
-					<button type="button" class="btn btn-secondary">Edit</button>
-					<button type="button" class="btn btn-danger">Remove</button>
+					<label class="label label-default">Edit</label>
+					<label class="label label-danger">Remove</label>
 				</div>
 			</div>
 		</div>

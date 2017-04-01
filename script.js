@@ -38,16 +38,16 @@
 	    $scope.message = 'This is the home page!';
 	});
 
-	coopReviewApp.controller('resumeController', function($scope) {});
+	coopReviewApp.controller('resumeController', function($scope) {
+		$scope.fileName = 'file name...';
+		$scope.resumeName = 'resume_name.pdf';
+		$scope.reviewAmount = '0';
+	});
 
 	coopReviewApp.controller('reviewController', function($scope) {});
 
 	coopReviewApp.controller('accountController', function($scope) {
 	    $scope.message = 'This is the account page!';
-	});
-
-	coopReviewApp.controller('loginController', function($scope) {
-
 	});
 
 	coopReviewApp.controller('companyController', function($scope) {

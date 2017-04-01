@@ -1,4 +1,11 @@
-.panel.panel-default {
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-start;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.flex-item {
     margin: 10px;
-    width: 98%;
 }
