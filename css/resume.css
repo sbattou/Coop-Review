@@ -26,3 +26,7 @@
 .comment-section{
     width: 30%;
 }
+
+input[type="file"] {
+    display: none;
+}
