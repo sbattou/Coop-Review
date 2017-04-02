@@ -1,0 +1,27 @@
+h2{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+h3{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+hr{
+    margin: 0px 0px 0px 20px;
+    width: 50%;
+}
+
+label{
+    font-size: 12px;
+}
+
+.tab-area{
+    padding: 20px;
+}
+
+.form-group{
+    margin: 20px 0px 0px 20px;
+    width: 30%;
+}
